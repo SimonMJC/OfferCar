@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text=""/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/avante"/>
+
+        <Button
+            android:id="@+id/bt4_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="HyunDAi Avante 제원/연비 바로가기!"
+            android:textColor="#05413B"
+            android:onClick="avanteButton"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="추천차량"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="중형세단 같은 준중형 세단!! "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" \n 컴팩트카 트렌드를 주도하는 디자인과 우수한 연비, 편안한 승차감, 정숙성, 최고의 정비성 그리고 저렴한 가격!!
+            \n 중형 세단 수준의 넓은 실내 공간을 자랑하며 대한민국 패밀리카 추천 순위에도 꾸준히 올라가는 차량이다.   "
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" \n 이외의 추천차량"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. KIA K3 \n2. KIA STONIC \n3. KIA SELTOS \n4. HYUNDAI ACCENT"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

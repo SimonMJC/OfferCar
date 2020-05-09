@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text=""/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/g70stinger"
+
+            />
+        <Button
+            android:id="@+id/bt7_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="GENESIS G70 제원/연비 바로가기!"
+            android:textColor="#05413B"
+            />
+        <!--        android:onClick="sonataButton"-->
+        <Button
+            android:id="@+id/bt7_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="KIA STINGER 제원/연비 바로가기!"
+            android:textColor="#05413B"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="추천차량"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="국산 프리미엄 세단의 시작."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" \n 약 4~5천만원대의 고급 세단을 뽑자면 많은 이들이 제네시스 G70, 기아의 스팅어를 꼽지 않을 수 없다. 유지보수비용이 부담이 가능하면 외산차량을 알아보는 것도 좋다. "
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n이외의 추천차량"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. KIA MOHAVE \n2. AUDI A4 \n3. BMW 3Series \n4. Mercedes-Benz C-Class"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+</FrameLayout>

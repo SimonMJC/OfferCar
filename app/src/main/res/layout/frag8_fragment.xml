@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text=""/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/g80k9"
+
+            />
+        <Button
+            android:id="@+id/bt8_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="GENESIS G80 제원/연비 바로가기!"
+            android:textColor="#05413B"
+            />
+
+        <Button
+            android:id="@+id/bt8_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="KIA K9 제원/연비 바로가기!"
+            android:textColor="#05413B"/>
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="추천차량"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="국산 프리미엄 세단의 최강자들!"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" \n 국산 프리미엄의 끝판왕 제네시스의 G80, 기아의 K9이다. 연봉 1억이상이지만 외제차 유지보수에 부담이 된다면 국산 프리미엄 세단을 찾아보자!"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n이외의 추천차량"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. GENESIS GV80 \n2. AUDI A6 \n3. BMW 5Series \n4. Mercedes-Benz E-Class"
+                    android:textSize="15dp"/>
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>

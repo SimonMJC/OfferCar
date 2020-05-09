@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text=""/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/sonata" />
+        <Button
+            android:id="@+id/bt5_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="HYUNDAI SONATA 제원/연비 바로가기!"
+            android:textColor="#05413B" />
+        <Button
+            android:id="@+id/bt5_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="KIA k5 제원/연비 바로가기!"
+            android:textColor="#05413B"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="추천차량"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="한 집안 두 식구! 그 중 승자는?  "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" \n 수십 년간 [국민중형차]의 타이틀을 뺏기지 않은 소나타, 언제부턴가 중형세단 2위 자리를 붙박은 K5. 그러나 두 차량 모두 2000만원대의 동등한 가격대, 잘 빠진 디자인. 소나타 K5 그 중의 승자는 아직도 가릴 수 없다.
+            \n "
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이외의 추천차량"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. KIA SPORTAGE \n2. HYUNDAI TUCSON \n3. CHEVROLET MALIBU \n4. HYUNDAI KONA Hybrid"
+            android:textSize="15dp"/>
+    </LinearLayout>
+</FrameLayout>

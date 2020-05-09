@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text=""/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/grank7"
+            />
+        <Button
+            android:id="@+id/bt6_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="HYUNDAI GRANDEUR 제원/연비 바로가기!"
+            android:textColor="#05413B"
+            />
+        <!--        android:onClick="sonataButton"-->
+        <Button
+            android:id="@+id/bt6_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="KIA k7 제원/연비 바로가기!"
+            android:textColor="#05413B"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="추천차량"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="우리 성공하면 뭐할까? 국내 준대형의 자존심! "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" \n 전 차량 월 판매대수 1위를 놓치지 않는 그랜져, 그 뒤를 따라 잡으려는 형제 k7! 준대형에 걸맞는 든든한 실내공간, 적당한 연비와 유지보수비용! 연봉 6000만원 대 사회인들이 가장 많이 선택하는 차량이다.  "
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n이외의 추천차량"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. KIA SORENTO \n2. HYUNDAI SANTAFE \n3. SAMSUNG SM7 \n4."
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>
